@@ -89,13 +89,8 @@ git push
 
 ## Outstanding Issues / TODO
 
-- [ ] All attraction card images are Unsplash stock — replace with real Sucre photos if available
-- [ ] "Plan My Trip" and social media buttons in footer have no destination (`href="#"`) — wire up or remove
-- [ ] No favicon set — add one
-- [ ] No meta description / Open Graph tags for social sharing previews
-- [ ] Mobile: hero title font size may feel large on very small screens — test on 320px width
-- [ ] Consider adding a real contact form or WhatsApp link for tourist enquiries
-- [ ] Tarabuco Market card image is a generic market photo — replace with actual Tarabuco image
+- [ ] All attraction card images are Unsplash stock — replace with real Sucre photos if available (local files not yet obtained)
+- [ ] WhatsApp number in footer and CTA is a placeholder (`59172000000`) — update to real number before launch
 
 ---
 
@@ -111,3 +106,13 @@ git push
 - Created GitHub repo, pushed code, enabled GitHub Pages
 - Fixed case-sensitivity bug: `imagenes/` → `Imagenes/` (Linux FS is case-sensitive)
 - Site live at https://tol3do21.github.io/me-gusta-sucre/
+
+### Session 2 — 2026-04-05
+- Fixed all 7 outstanding TODO items in one commit (ae41448)
+- Added SVG favicon (crimson "M" circle, inline data URL)
+- Added meta description, Open Graph, and Twitter Card tags (OG image points to hero WebP)
+- Fixed mobile hero title overflow: added `xs` (360px) breakpoint, base font now 3rem scaling to 9rem on desktop
+- Replaced Tarabuco Market card image (was duplicate of Salteñas Unsplash photo)
+- Wired "Plan My Trip" CTA banner button to WhatsApp with pre-filled message (placeholder number `59172000000`)
+- Replaced dead footer social icons (Facebook/Instagram/Twitter) with a single WhatsApp contact button
+- Remaining: replace placeholder WhatsApp number with real one before launch; swap Unsplash images for real Sucre photos when available
