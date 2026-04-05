@@ -81,6 +81,12 @@ git push
 
 ---
 
+## Standing Instructions for Claude
+
+- **Auto-push to GitHub after every change.** Whenever any file in this project is modified, immediately run `git add . && git commit -m "<description>" && git push` without waiting to be asked. Do not batch changes — push after each task is complete.
+
+---
+
 ## Outstanding Issues / TODO
 
 - [ ] All attraction card images are Unsplash stock — replace with real Sucre photos if available
